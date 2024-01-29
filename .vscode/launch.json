@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome against localhost",
-      "url": "C:UsersdawnhDocumentsGitHubweek3index.html",
+      "url": "file:///C:/Users/dawnh/Documents/GitHub/week3/index.html",
       "webRoot": "${workspaceFolder}"
     }
   ]

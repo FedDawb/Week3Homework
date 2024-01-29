@@ -41,36 +41,6 @@ img {
     box-shadow: var(--box-shadow);
 }
 
-@media (max-width: 600px) {
-
-    h1,
-    h2 {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-    .container,
-    body {
-        text-align: center;
-    }
-}
-
 .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -132,3 +102,50 @@ img {
     box-shadow: var(--box-shadow);
     color: white;
 }
+
+@media (max-width: 600px) {
+
+    h1,
+    h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p{
+        text-align: center;
+    }
+
+
+    img {
+        display: none;
+    }    
+
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container,
+    body {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .center-on-small-screen {
+            justify-content: center;
+            text-align: center;
+                }
+         }
+
